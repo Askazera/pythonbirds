@@ -193,6 +193,7 @@ class PassaroBaseTests(TestCase):
 class PassaroVermelhoTests(PassaroBaseTests):
     """
     Classe de teste e Passaro Vermelho
+    'V' significa ativo e 'v' destruido, para o passaro vermelho
     """
 
     def teste_status(self):
